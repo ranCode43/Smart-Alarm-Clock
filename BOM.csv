@@ -1,0 +1,12 @@
+Item Name	Qty	Price (total) (USD)	Item link	Notes
+ESP32 DevKit	1	$9.99	search Amazon/AliExpress	main MCU + WiFi
+SSD1306 OLED 0.96in (I2C)	1	$6.99	search Amazon/AliExpress	128x64
+BME280 (I2C)	1	$5.99	search Amazon/AliExpress	temp/humidity
+WS2812B RGB ring (16 LED)	1	$7.99	search Amazon/AliExpress	ambient animations
+EC11 rotary encoder w/ button	1	$4.99	search Amazon/AliExpress	menu input
+Passive piezo buzzer	1	$2.49	search Amazon/AliExpress	optional alarm sound
+Jumper wires	1	$3.99	search Amazon/AliExpress	
+USB-C cable	1	$4.99	search Amazon/AliExpress	power only
+				
+				
+Total Price (USD):	$47.42			
