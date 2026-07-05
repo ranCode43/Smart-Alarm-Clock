@@ -1,7 +1,7 @@
 
 # Smart RGB Clock
 
-A WiFi-synced desk clock with ambient RGB animations, a rotary-encoder menu, temperature readout, and an alarm — built entirely from off-the-shelf modules.
+A WiFi-synced desk clock with ambient RGB animations, a rotary-encoder menu, temperature readout, and an alarm
 
 > Built using Fusion 360, PlatformIO, an ESP32, WS2812B RGB ring, SSD1306 OLED, and a BME280 sensor.
 
@@ -11,7 +11,7 @@ The ESP32 connects to WiFi on boot and syncs the time over NTP, so no RTC module
 
 ## Why I made it
 
-I wanted a clock on my desk that actually felt like a finished product instead of a breadboard mess — something that looks professional, uses multiple sensors and a display together, and is still simple enough to build in a short timeframe using parts I could just buy off the shelf.
+I wanted a clock on my desk that actually felt like a finished product instead of a breadboard mess, looks professional, uses multiple sensors and a display together
 
 ## Features
 
@@ -63,4 +63,7 @@ See assests/JOURNAL.md for project progress and development history.
 OLED RING isnt in cad or piezo buzzer
 <img width="805" height="604" alt="Screenshot 2026-07-04 212627" src="https://github.com/user-attachments/assets/f72b6333-4b9f-412e-b547-e4afe28d34c7" />
 <img width="680" height="433" alt="image" src="https://github.com/user-attachments/assets/310e5d0d-6846-405c-94d4-c9cee77faa2b" />
+
+#Wiring Diagram
+<img width="680" height="433" alt="image" src="https://github.com/user-attachments/assets/dcf768e7-1e77-48a5-a826-070a8326887a" />
 
