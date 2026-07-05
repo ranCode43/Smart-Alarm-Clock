@@ -19,19 +19,19 @@ I wanted a clock on my desk that actually felt like a finished product instead o
 
 NTP-synced time and date, no RTC chip
 
-🌈 Ambient RGB
+ Ambient RGB
 
 Smooth breathing rainbow animation on the ring
 
-🌡️ Temperature Readout
+ Temperature Readout
 
 Live temp pulled from the BME280
 
-⏰ Alarm
+ Alarm
 
 Set and toggle via rotary encoder menu, persists across reboot
 
-🔴 Alarm Alert
+ Alarm Alert
 
 Ring pulses red + OLED flashes when the alarm fires
 
@@ -61,4 +61,6 @@ See assests/JOURNAL.md for project progress and development history.
 
 ## CAD Render
 
-See cad/README.md for enclosure design details and renders.
+<img width="805" height="604" alt="Screenshot 2026-07-04 212627" src="https://github.com/user-attachments/assets/f72b6333-4b9f-412e-b547-e4afe28d34c7" />
+<img width="680" height="433" alt="image" src="https://github.com/user-attachments/assets/310e5d0d-6846-405c-94d4-c9cee77faa2b" />
+
