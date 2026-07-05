@@ -42,7 +42,7 @@ Ring pulses red + OLED flashes when the alarm fires
 - BME280 (I2C)
 - WS2812B RGB ring
 - EC11 rotary encoder w/ push button
-- Passive piezo buzzer (optional)
+- Passive piezo buzzer 
 
 ## Firmware
 
@@ -60,7 +60,7 @@ The firmware is organized into independent modules so each subsystem has a singl
 See assests/JOURNAL.md for project progress and development history.
 
 ## CAD Render
-
+OLED RING isnt in cad or piezo buzzer
 <img width="805" height="604" alt="Screenshot 2026-07-04 212627" src="https://github.com/user-attachments/assets/f72b6333-4b9f-412e-b547-e4afe28d34c7" />
 <img width="680" height="433" alt="image" src="https://github.com/user-attachments/assets/310e5d0d-6846-405c-94d4-c9cee77faa2b" />
 
