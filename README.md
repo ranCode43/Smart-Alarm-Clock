@@ -65,5 +65,6 @@ OLED RING isnt in cad or piezo buzzer
 <img width="680" height="433" alt="image" src="https://github.com/user-attachments/assets/310e5d0d-6846-405c-94d4-c9cee77faa2b" />
 
 #Wiring Diagram
-<img width="680" height="433" alt="image" src="https://github.com/user-attachments/assets/dcf768e7-1e77-48a5-a826-070a8326887a" />
+<img width="4284" height="5712" alt="IMG_0008" src="https://github.com/user-attachments/assets/05c099f8-f572-4015-801a-c3f8b077c999" />
+
 
