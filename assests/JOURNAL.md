@@ -2,8 +2,7 @@
 
 June 3-5, 9 hrs
 ## Planning
-Picked this as the new A-tier project because it uses multiple components (display, RGB, sensor, input) but keeps a manageable scope — no custom PCB, all off-the-shelf modules, design-only submission
-
+Picked this as the new A-tier project
 - ESP32 over Pico: built-in WiFi means NTP time sync instead of a separate RTC module — fewer parts, more accurate time.
 - OLED + BME280 share the I2C bus (different addresses) — only 2 signal pins used for both.
 - WS2812B ring driven off a single data pin, individually addressable, no per-LED resistors needed.
