@@ -1,17 +1,34 @@
-# Build Journal — Smart RGB Clock
+Build Journal — Smart RGB Clock
 
 June 3-5, 9 hrs
-## Planning
-Picked this as the new A-tier project
-- ESP32 over Pico: built-in WiFi means NTP time sync instead of a separate RTC module — fewer parts, more accurate time.
-- OLED + BME280 share the I2C bus (different addresses) — only 2 signal pins used for both.
-- WS2812B ring driven off a single data pin, individually addressable, no per-LED resistors needed.
-- Alarm settings stored in flash  so they survive power loss without a battery-backed RTC.
-- Firmware split into modules  same pattern as the LED Cube firmware — each file owns one subsystem.
 
-## Wiring
-Pinout finalized: I2C on 21/22, RGB data on 4, encoder on 32/33/25, buzzer on 27. 
+Planning
 
-## Firmware
-State machine: CLOCK_DISPLAY, MENU, SET_ALARM, ALARM_TRIGGERED. Encoder rotation handled via interrupt so it stays responsive independent of display refresh rate. RGB animation updates every 30ms 
+Picked this as my new A-tier project. Wanted something with a bunch of parts working together but not too crazy — no custom PCB, just off the shelf stuff.
 
+
+Used an ESP32 instead of a Pico because it has WiFi built in, so it can just grab the time from the internet instead of needing a separate RTC chip
+OLED and BME280 both use I2C so they share the same 2 wires instead of needing their own
+The RGB ring only needs 1 wire for data which is cool
+Alarm saves to flash memory so it doesn't forget when it loses power
+Split the firmware into different files like I did on the LED Cube, so each file just does its own thing
+
+
+Wiring
+
+Figured out all the pins: I2C on 21/22, RGB on 4, encoder on 32/33/25, buzzer on 27.
+
+Firmware
+
+Made a state machine so the clock knows what screen it's on (normal clock, menu, setting the alarm, or alarm going off). Encoder uses interrupts so it doesn't feel laggy.
+
+June 8
+
+
+
+
+Modeled the actual parts instead of just plain boxes — ESP32 with the pin headers, BME280, and the OLED, all real sizes
+Put the encoder through the side wall with the little knob and everything
+Added a lid so the box actually closes now instead of being open on top
+Modeled  M2 screw with actual threads and made mounting holes so the board is screwed in instead of just sitting there loose
+Modeled the RGB ring using the real measurements from the listing so the hole actually fits it right
