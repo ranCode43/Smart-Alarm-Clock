@@ -60,9 +60,9 @@ The firmware is organized into independent modules so each subsystem has a singl
 See assests/JOURNAL.md for project progress and development history.
 
 ## CAD Render
-OLED RING isnt in cad or piezo buzzer
-<img width="805" height="604" alt="Screenshot 2026-07-04 212627" src="https://github.com/user-attachments/assets/f72b6333-4b9f-412e-b547-e4afe28d34c7" />
-<img width="680" height="433" alt="image" src="https://github.com/user-attachments/assets/310e5d0d-6846-405c-94d4-c9cee77faa2b" />
+<img width="957" height="673" alt="Screenshot 2026-07-08 163501" src="https://github.com/user-attachments/assets/7af9b1d3-aa54-4b5c-af99-76d354388231" />
+<img width="623" height="634" alt="image" src="https://github.com/user-attachments/assets/eb893cca-eb9a-4378-8726-c715cc0cd1d0" />
+
 
 #Wiring Diagram
 <img width="4284" height="5712" alt="IMG_0008" src="https://github.com/user-attachments/assets/05c099f8-f572-4015-801a-c3f8b077c999" />
